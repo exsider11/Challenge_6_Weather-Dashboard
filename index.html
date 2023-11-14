@@ -23,10 +23,10 @@
 
             <h2 stlye="font-weight: bold;">Search For a City:</h2>
             
-            <input id="input" placeholder="San Diego" />
+            <input id="cityInput" placeholder="San Diego" />
 
             <div class="d-flex flex-column" >
-                <button style="background-color: skyblue; color: white; margin-bottom: 10px; margin-bottom: 0px;">Search</button>
+                <button id="search" style="background-color: skyblue; color: white; margin-bottom: 10px; margin-bottom: 0px;">Search</button>
             </div>
             <div class="divider">
                 <hr></hr>
@@ -36,31 +36,56 @@
                 <button id="Atlanta">Atlanta</button>
                 <button id="Denver">Denver</button>
                 <button id="Seattle">Seattle</button>
-                <button id="San Francisco">San Fran</button>
+                <button id="SanFrancisco">San Francisco</button>
                 <button id="Orlando">Orlando</button>
-                <button id="New York">New York</button>
+                <button id="NewYork">New York</button>
                 <button id="Chicago">Chicago</button>
                 <button id="Austin">Austin</button>
             </div>
         </div>
 
         <div style="padding: 10px" class="col">
-            <div style="padding: 10px; border-style:solid; border-width: 1px; margin-right: 500px;">
-                <h2><b>Atlanta info</b></h2>
+            <div style="padding: 10px; border-style:solid; border-width: 1px;">
+                <h2 id="h2Info"><b>Atlanta</b></h2>
                 <h4>
-                    <div>Temp:</div>
-                    <div>Wind:</div>
-                    <div>Humidity:</div>
+                    <div id="temp">Temp:</div>
+                    <div id="wind">Wind:</div>
+                    <div id="humid">Humidity:</div>
                 </h4>
             </div>
             <div>
-                <h3 style="padding: 5px">5 day forcast</h3>
+                <h3 style="padding: 5px">5 day forecast</h3>
                 <div class="d-flex flex-row">
-                    <div id="day1" style="padding: 5px;">asdasdasd</div>
-                    <div id="day2" style="padding: 5px;">asdasd</div>
-                    <div id="day3" style="padding: 5px;">asdasd</div>
-                    <div id="day4" style="padding: 5px;">asdasd</div>
-                    <div id="day5" style="padding: 5px;">asdasd</div>
+                    <div id="dayInfo" style="padding: 5px;">
+                        <div id="timer1"></div>
+                        <div id="temp1">Temp:</div>
+                        <div id="wind1">Wind:</div>
+                        <div id="humid1">Humidity:</div>
+                    </div>
+                    <div id="dayInfo" style="padding: 5px;">
+                        <div id="timer2"></div>
+                        <div id="temp2">Temp:</div>
+                        <div id="wind2">Wind:</div>
+                        <div id="humid2">Humidity:</div>
+                    </div>
+                    <div id="dayInfo" style="padding: 5px;">
+                        <div id="timer3"></div>
+                        <div id="temp3">Temp:</div>
+                        <div id="wind3">Wind:</div>
+                        <div id="humid3">Humidity:</div>
+                    </div>
+                    <div id="dayInfo" style="padding: 5px;">
+                        <div id="timer4"></div>
+                        <div id="temp4">Temp:</div>
+                        <div id="wind4">Wind:</div>
+                        <div id="humid4">Humidity:</div>
+                    </div>
+                    <div id="dayInfo" style="padding: 5px;">
+                        <div id="timer5"></div>
+                        <div id="temp5">Temp:</div>
+                        <div id="wind5">Wind:</div>
+                        <div id="humid5">Humidity:</div>
+                    </div>
                 </div>
             </div>
 

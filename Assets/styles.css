@@ -13,9 +13,6 @@ nav{
     font-size: 30px;
     font-weight: bold;
 }
-h2{
-    margin: 5px;
-}
 
 input{
     margin: 5px;
@@ -25,5 +22,18 @@ input{
 }
 
 .divider hr { 
-    background-color: black; 
+    background-color: navy; 
   } 
+
+#dayInfo{
+    background-color: darkslateblue;
+    padding: 30px;
+    margin: 10px;
+    height: 100%;
+    width: 25%;
+    color:white;
+}
+
+div{
+    padding: 5px;
+}
